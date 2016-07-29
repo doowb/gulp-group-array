@@ -25,11 +25,47 @@
     "vinyl": "^1.2.0"
   },
   "devDependencies": {
+    "extend-shallow": "^2.0.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-extname": "^0.2.2",
+    "gulp-format-md": "^0.1.9",
+    "gulp-gray-matter": "^3.0.1",
+    "handlebars": "^4.0.5",
     "mocha": "^2.5.3"
   },
   "keywords": [
     "array",
     "group",
     "gulp"
-  ]
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "group-array",
+        "gulp",
+        "vinyl"
+      ]
+    },
+    "reflinks": [
+      "gulp",
+      "verb",
+      "verb-generate-readme",
+      "vinyl",
+      "extend-shallow",
+      "group-array",
+      "gulp-gray-matter",
+      "handlebars"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
