@@ -37,7 +37,13 @@
   "keywords": [
     "array",
     "group",
-    "gulp"
+    "group-array",
+    "gulp",
+    "gulp-plugin",
+    "gulpplugin",
+    "plugin",
+    "vinyl",
+    "vinyl-group"
   ],
   "verb": {
     "toc": false,
