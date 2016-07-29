@@ -25,7 +25,7 @@ gulp.task('render', function() {
     // custom plugin that captures the tags group and renders the other handlebars files.
     .pipe(through.obj(function(file, enc, cb) {
       // the first file through should be the groupFile
-      if (file.group) {
+      if (file.isVinylGroup) {
         cache.groups.tags = file.group;
         return cb();
       }

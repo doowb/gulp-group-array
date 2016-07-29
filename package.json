@@ -22,7 +22,7 @@
   "dependencies": {
     "group-array": "^0.3.1",
     "through2": "^2.0.1",
-    "vinyl-group": "^0.1.0"
+    "vinyl-group": "^0.1.1"
   },
   "devDependencies": {
     "extend-shallow": "^2.0.1",
