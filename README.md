@@ -28,7 +28,7 @@ Group vinyl files by specified properties on the vinyl files. This uses [group-a
 * `options` **{Object}**: Optional object to specify options. If this is passed, then it won't be passed to [group-array](https://github.com/doowb/group-array).
 * `options.groupFn` **{Function}**: Function that will be called with the `group` object. This is the results from calling [group-array](https://github.com/doowb/group-array).
 * `options.flush` **{Boolean}**: When set to `false`, the source files will not be pushed through the stream. (Defaults to `true`)
-* `options.groupFile` **{Boolean}**: When set to `true`, a new vinyl file will be created with a `.group` property containing the group object created by [group-array](https://github.com/doowb/group-array).
+* `options.groupFile` **{Boolean}**: When set to `true`, a new [vinyl-group](https://github.com/doowb/vinyl-group) will be created with a `.group` property containing the group object created by [group-array](https://github.com/doowb/group-array).
 * `returns` **{Stream}**: Returns a stream to pipe vinyl source files through.
 
 **Example**
