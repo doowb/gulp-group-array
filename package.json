@@ -1,0 +1,23 @@
+{
+  "name": "gulp-group-array",
+  "description": "Gulp plugin to group vinyl files by properties on the vinyl file using group-array.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/gulp-group-array",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "doowb/gulp-group-array",
+  "bugs": {
+    "url": "https://github.com/doowb/gulp-group-array/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "array",
+    "group",
+    "gulp"
+  ]
+}

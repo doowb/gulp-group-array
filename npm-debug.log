@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/doowb/.nvm/v5.1.1/bin/node',
+1 verbose cli   '/Users/doowb/.nvm/v5.1.1/bin/npm',
+1 verbose cli   'show',
+1 verbose cli   'gulp-group-array' ]
+2 info using npm@3.7.5
+3 info using node@v5.1.1
+4 verbose config Skipping project config: /Users/doowb/.npmrc. (matches userconfig)
+5 silly mapToRegistry name gulp-group-array
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry https://registry.npmjs.org/
+8 silly mapToRegistry uri https://registry.npmjs.org/gulp-group-array
+9 verbose request uri https://registry.npmjs.org/gulp-group-array
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 1:43:23 PM
+12 verbose request using bearer token for auth
+13 verbose request id 553be9fe5c3982f3
+14 http request GET https://registry.npmjs.org/gulp-group-array
+15 http 404 https://registry.npmjs.org/gulp-group-array
+16 verbose headers { 'content-type': 'application/json',
+16 verbose headers   'cache-control': 'max-age=0',
+16 verbose headers   'content-length': '2',
+16 verbose headers   'accept-ranges': 'bytes',
+16 verbose headers   date: 'Fri, 29 Jul 2016 17:43:21 GMT',
+16 verbose headers   via: '1.1 varnish',
+16 verbose headers   connection: 'keep-alive',
+16 verbose headers   'x-served-by': 'cache-ord1743-ORD',
+16 verbose headers   'x-cache': 'MISS',
+16 verbose headers   'x-cache-hits': '0',
+16 verbose headers   'x-timer': 'S1469814201.830202,VS0,VE50',
+16 verbose headers   vary: 'Accept-Encoding' }
+17 silly get cb [ 404,
+17 silly get   { 'content-type': 'application/json',
+17 silly get     'cache-control': 'max-age=0',
+17 silly get     'content-length': '2',
+17 silly get     'accept-ranges': 'bytes',
+17 silly get     date: 'Fri, 29 Jul 2016 17:43:21 GMT',
+17 silly get     via: '1.1 varnish',
+17 silly get     connection: 'keep-alive',
+17 silly get     'x-served-by': 'cache-ord1743-ORD',
+17 silly get     'x-cache': 'MISS',
+17 silly get     'x-cache-hits': '0',
+17 silly get     'x-timer': 'S1469814201.830202,VS0,VE50',
+17 silly get     vary: 'Accept-Encoding' } ]
+18 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-group-array
+18 verbose stack     at makeError (/Users/doowb/.nvm/v5.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+18 verbose stack     at CachingRegistryClient.<anonymous> (/Users/doowb/.nvm/v5.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+18 verbose stack     at Request._callback (/Users/doowb/.nvm/v5.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+18 verbose stack     at Request.self.callback (/Users/doowb/.nvm/v5.1.1/lib/node_modules/npm/node_modules/request/request.js:199:22)
+18 verbose stack     at emitTwo (events.js:87:13)
+18 verbose stack     at Request.emit (events.js:172:7)
+18 verbose stack     at Request.<anonymous> (/Users/doowb/.nvm/v5.1.1/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+18 verbose stack     at emitOne (events.js:82:20)
+18 verbose stack     at Request.emit (events.js:169:7)
+18 verbose stack     at IncomingMessage.<anonymous> (/Users/doowb/.nvm/v5.1.1/lib/node_modules/npm/node_modules/request/request.js:963:12)
+19 verbose statusCode 404
+20 verbose pkgid gulp-group-array
+21 verbose cwd /Users/doowb/work/doowb/gulp-group-array
+22 error Darwin 13.4.0
+23 error argv "/Users/doowb/.nvm/v5.1.1/bin/node" "/Users/doowb/.nvm/v5.1.1/bin/npm" "show" "gulp-group-array"
+24 error node v5.1.1
+25 error npm  v3.7.5
+26 error code E404
+27 error 404 Registry returned 404 for GET on https://registry.npmjs.org/gulp-group-array
+28 error 404
+29 error 404 'gulp-group-array' is not in the npm registry.
+30 error 404 You should bug the author to publish it (or use the name yourself!)
+31 error 404 Note that you can also install from a
+32 error 404 tarball, folder, http url, or git url.
+33 verbose exit [ 1, true ]
