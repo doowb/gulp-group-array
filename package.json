@@ -22,7 +22,7 @@
   "dependencies": {
     "group-array": "^0.3.1",
     "through2": "^2.0.1",
-    "vinyl": "^1.2.0"
+    "vinyl-group": "^0.1.0"
   },
   "devDependencies": {
     "extend-shallow": "^2.0.1",
@@ -31,7 +31,8 @@
     "gulp-format-md": "^0.1.9",
     "gulp-gray-matter": "^3.0.1",
     "handlebars": "^4.0.5",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "vinyl": "^1.2.0"
   },
   "keywords": [
     "array",
